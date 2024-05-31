@@ -1,0 +1,19 @@
+<% @title = "トップページ" %>
+<h1 class="text-primary">Restudy cafe</h1>
+<p>Rubyとフィヨルドの休憩所</p>
+
+<!-- ログインフォームの追加 -->
+<div class="mt-4">
+  <h2>Login</h2>
+  <form action="/login" method="post">
+    <div class="form-group">
+      <label for="loginID">Login ID</label>
+      <input type="text" class="form-control" id="loginID" name="loginID" required>
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" class="form-control" id="password" name="password" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+  </form>
+</div>

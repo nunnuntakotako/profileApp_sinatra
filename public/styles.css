@@ -1,0 +1,43 @@
+body {
+  background-color: #e6d4ac;
+  font-family: Arial, sans-serif; /* Optional: Bootstrap already provides good default fonts */
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 10px 10px -6px rgba(0, 0, 0, 0.3);
+}
+
+.nav-link {
+  color: #39434d !important;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+}
+
+p {
+  color: #666;
+}
+
+.text-primary{
+  color: #602D1D !important;
+}
+
+.form-control, .btn {
+  border-radius: 5pt;
+}
+
+.btn {
+  background-color: #602D1D !important;
+  border: #602D1D !important;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
