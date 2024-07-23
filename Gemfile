@@ -2,17 +2,10 @@
 
 source "https://rubygems.org"
 
-# gem "rails"
-
-gem "sinatra", "~> 4.0"
+gem "sinatra"
+gem "sinatra-activerecord"
+gem "activerecord", require: ">= 6.1.7"
+gem "mysql2", require: ">= 0.11.0"
+gem "bcrypt"
 
 gem "rackup", "~> 2.1"
-
-gem "sinatra-contrib"
-
-gem 'activerecord'
-
-gem 'sinatra-activerecord'
-
-gem 'sqlite3'
-
