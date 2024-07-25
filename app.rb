@@ -28,7 +28,6 @@ post '/login' do
 end
 
 
-
 get '/hello/*' do |name|
   "hello #{name}. how are you?"
 end
