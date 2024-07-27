@@ -19,6 +19,11 @@ get '/about' do
   erb :about
 end
 
+get '/userpage' do
+  @title = "About Us"
+  erb :userspage
+end
+
 post '/login' do
   # ログイン処理をここに記述
   login_id = params[:loginID]
