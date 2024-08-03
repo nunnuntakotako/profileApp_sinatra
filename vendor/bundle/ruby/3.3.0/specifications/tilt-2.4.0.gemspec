@@ -21,5 +21,5 @@ Gem::Specification.new do |s|
   s.rubygems_version = "3.5.9".freeze
   s.summary = "Generic interface to multiple Ruby template engines".freeze
 
-  s.installed_by_version = "3.5.16".freeze if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.5.17".freeze if s.respond_to? :installed_by_version
 end

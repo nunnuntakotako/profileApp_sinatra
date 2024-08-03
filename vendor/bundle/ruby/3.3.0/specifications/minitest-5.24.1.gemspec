@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = "3.5.14".freeze
   s.summary = "minitest provides a complete suite of testing facilities supporting TDD, BDD, mocking, and benchmarking".freeze
 
-  s.installed_by_version = "3.5.16".freeze if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.5.17".freeze if s.respond_to? :installed_by_version
 
   s.specification_version = 4
 

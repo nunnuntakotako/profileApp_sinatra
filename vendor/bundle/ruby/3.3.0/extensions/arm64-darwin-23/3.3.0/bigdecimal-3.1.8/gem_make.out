@@ -32,17 +32,17 @@ checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... yes
 creating Makefile
 
 current directory: /Users/non/Desktop/profileApp/vendor/bundle/ruby/3.3.0/gems/bigdecimal-3.1.8/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20240531-51277-ut4qh5 sitelibdir\=./.gem.20240531-51277-ut4qh5 clean
+make DESTDIR\= sitearchdir\=./.gem.20240803-31637-5pfiar sitelibdir\=./.gem.20240803-31637-5pfiar clean
 
 current directory: /Users/non/Desktop/profileApp/vendor/bundle/ruby/3.3.0/gems/bigdecimal-3.1.8/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20240531-51277-ut4qh5 sitelibdir\=./.gem.20240531-51277-ut4qh5
+make DESTDIR\= sitearchdir\=./.gem.20240803-31637-5pfiar sitelibdir\=./.gem.20240803-31637-5pfiar
 compiling bigdecimal.c
 compiling missing.c
 linking shared-object bigdecimal.bundle
 
 current directory: /Users/non/Desktop/profileApp/vendor/bundle/ruby/3.3.0/gems/bigdecimal-3.1.8/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20240531-51277-ut4qh5 sitelibdir\=./.gem.20240531-51277-ut4qh5 install
-/usr/bin/install -c -m 0755 bigdecimal.bundle ./.gem.20240531-51277-ut4qh5
+make DESTDIR\= sitearchdir\=./.gem.20240803-31637-5pfiar sitelibdir\=./.gem.20240803-31637-5pfiar install
+/usr/bin/install -c -m 0755 bigdecimal.bundle ./.gem.20240803-31637-5pfiar
 
 current directory: /Users/non/Desktop/profileApp/vendor/bundle/ruby/3.3.0/gems/bigdecimal-3.1.8/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20240531-51277-ut4qh5 sitelibdir\=./.gem.20240531-51277-ut4qh5 clean
+make DESTDIR\= sitearchdir\=./.gem.20240803-31637-5pfiar sitelibdir\=./.gem.20240803-31637-5pfiar clean

@@ -1,9 +1,10 @@
 require 'sinatra'
 require 'sinatra/activerecord'
-require 'mysql2'  # 追加
+require 'sqlite3'
 
 # データベースへの接続設定
-set :database, {adapter: "mysql2", database: "db/development.db"}
+set :database, {adapter: "sqlite3", database: "db/development.sqlite3"}
+
 
 # Userモデルの定義
 class User < ActiveRecord::Base

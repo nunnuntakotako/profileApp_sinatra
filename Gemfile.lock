@@ -26,10 +26,9 @@ GEM
     i18n (1.14.5)
       concurrent-ruby (~> 1.0)
     minitest (5.24.1)
-    mustermann (3.0.0)
+    mustermann (3.0.1)
       ruby2_keywords (~> 0.0.1)
     mutex_m (0.2.0)
-    mysql2 (0.5.6)
     rack (3.1.7)
     rack-protection (4.0.0)
       base64 (>= 0.1.0)
@@ -49,6 +48,12 @@ GEM
     sinatra-activerecord (2.0.27)
       activerecord (>= 4.1)
       sinatra (>= 1.0)
+    sqlite3 (1.7.3-aarch64-linux)
+    sqlite3 (1.7.3-arm-linux)
+    sqlite3 (1.7.3-arm64-darwin)
+    sqlite3 (1.7.3-x86-linux)
+    sqlite3 (1.7.3-x86_64-darwin)
+    sqlite3 (1.7.3-x86_64-linux)
     tilt (2.4.0)
     timeout (0.4.1)
     tzinfo (2.0.6)
@@ -56,16 +61,24 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
-  arm64-darwin-23
-  ruby
+  aarch64-linux-gnu
+  aarch64-linux-musl
+  arm-linux-gnu
+  arm-linux-musl
+  arm64-darwin
+  x86-linux-gnu
+  x86-linux-musl
+  x86_64-darwin
+  x86_64-linux-gnu
+  x86_64-linux-musl
 
 DEPENDENCIES
   activerecord
   bcrypt
-  mysql2
   rackup (~> 2.1)
   sinatra
   sinatra-activerecord
+  sqlite3 (~> 1.7.3)
 
 BUNDLED WITH
-   2.5.16
+   2.5.17

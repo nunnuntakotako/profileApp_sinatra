@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = "3.5.0.dev".freeze
   s.summary = "Mixin to extend objects to be handled like a Mutex.".freeze
 
-  s.installed_by_version = "3.5.16".freeze if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.5.17".freeze if s.respond_to? :installed_by_version
 
   s.specification_version = 4
 

@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = "3.5.9".freeze
   s.summary = "A modular Ruby webserver interface.".freeze
 
-  s.installed_by_version = "3.5.16".freeze if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.5.17".freeze if s.respond_to? :installed_by_version
 
   s.specification_version = 4
 

@@ -14,10 +14,10 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/sinatra-activerecord/sinatra-activerecord".freeze
   s.licenses = ["MIT".freeze]
   s.required_ruby_version = Gem::Requirement.new(">= 2.6.0".freeze)
-  s.rubygems_version = "3.5.9".freeze
+  s.rubygems_version = "3.3.7".freeze
   s.summary = "Extends Sinatra with ActiveRecord helpers.".freeze
 
-  s.installed_by_version = "3.5.9".freeze if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.5.17".freeze if s.respond_to? :installed_by_version
 
   s.specification_version = 4
 
