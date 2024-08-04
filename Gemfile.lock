@@ -78,7 +78,7 @@ DEPENDENCIES
   rackup (~> 2.1)
   sinatra
   sinatra-activerecord
-  sqlite3 (~> 1.7.3)
+  sqlite3 (~> 1.4)
 
 BUNDLED WITH
    2.5.17
