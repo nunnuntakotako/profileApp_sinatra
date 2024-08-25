@@ -1,0 +1,20 @@
+current directory: /Users/non/Desktop/profileApp/vendor/bundle/ruby/3.3.0/gems/digest-3.1.1/ext/digest/sha2
+/Users/non/.rbenv/versions/3.3.1/bin/ruby extconf.rb
+checking for CommonCrypto/CommonDigest.h... yes
+checking for sys/cdefs.h... yes
+creating Makefile
+
+current directory: /Users/non/Desktop/profileApp/vendor/bundle/ruby/3.3.0/gems/digest-3.1.1/ext/digest/sha2
+make DESTDIR\= sitearchdir\=./.gem.20240805-50161-7chqde sitelibdir\=./.gem.20240805-50161-7chqde clean
+
+current directory: /Users/non/Desktop/profileApp/vendor/bundle/ruby/3.3.0/gems/digest-3.1.1/ext/digest/sha2
+make DESTDIR\= sitearchdir\=./.gem.20240805-50161-7chqde sitelibdir\=./.gem.20240805-50161-7chqde
+compiling sha2init.c
+linking shared-object digest/sha2.bundle
+
+current directory: /Users/non/Desktop/profileApp/vendor/bundle/ruby/3.3.0/gems/digest-3.1.1/ext/digest/sha2
+make DESTDIR\= sitearchdir\=./.gem.20240805-50161-7chqde sitelibdir\=./.gem.20240805-50161-7chqde install
+/usr/bin/install -c -m 0755 sha2.bundle ./.gem.20240805-50161-7chqde/digest
+
+current directory: /Users/non/Desktop/profileApp/vendor/bundle/ruby/3.3.0/gems/digest-3.1.1/ext/digest/sha2
+make DESTDIR\= sitearchdir\=./.gem.20240805-50161-7chqde sitelibdir\=./.gem.20240805-50161-7chqde clean
